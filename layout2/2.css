@@ -1,0 +1,438 @@
+header {
+    background-image: linear-gradient(to left,#4f81cc,#3f69b7);
+    display: inline-block;
+    width: 100%;
+}
+.container{
+    max-width: 960px;
+    width: 100%;    
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.logo-header{
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.logo-header a img {
+    padding: 4px;
+    
+}
+
+.logo-header a {
+    width: 150px;
+    display: inline-block;
+    background: #fff;
+    height: 64px;
+    text-align: center;
+}
+
+.logo-header h2 {
+    color: #fff;
+    font-size: 14px;
+    width: 300px;
+    text-overflow: ellipsis;
+    margin: 0;
+    font-weight: 400;
+    margin-left: 15px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.header-list{
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+.header-list li {
+    float: left;
+    list-style: none;
+}
+.header-list li a {
+    color: #fff;
+    border-left: 1px solid #7d9ed5;
+    padding: 20px 15px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    height: 64px;
+}
+.header-list li a span {
+    margin: 0 15px;
+    font-size: 14px;
+}
+.header-list .order-code {
+    width: 165px;
+    display: block;
+    overflow: hidden;
+    font-size: 12px;
+}
+.header-list li:last-child a {
+    border-right: 1px solid #7d9ed5;
+}
+
+.index-header {
+    color: #4f81cc;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+.text-center {
+    text-align: center;
+}
+.load-text{
+    color: #8f8f8f;
+}
+
+
+.payment-methods {
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+.payment-methods .card {
+    border: 0;
+    background: 0 0;
+    margin-bottom: 1px;
+    box-shadow: 0 2px 8px 0 rgba(35,28,21,.1);;
+}
+.payment-methods .card .card-header {
+    background: #fbfbfb;
+    background-image: linear-gradient(-90deg,#f9f9f9 0,#f9f9f9 .5%,#fff 100%);
+    border-bottom: 0;
+    padding: 0.75rem 1.25rem;
+    box-sizing: border-box;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+
+.payment-methods>.card>.card-header {
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+.payment-methods .card .card-header button {
+    color: #0f1d31;
+    width: 100%;
+    height: 72px;
+    padding: 10px 32px 26px 110px;
+    font-size: 14px;
+    text-align: left;
+    position: relative;
+}
+.payment-methods .card .card-header button.text1-left{
+    padding-left: 85px;
+}
+
+.payment-methods .card .card-header button a.other{
+    font-size: 12px;
+    bottom: 10px;
+}
+.payment-methods .card .card-header button img {
+    position: absolute;
+    left: 10px;
+    top:-5px;
+    width: 67px;
+    
+}
+
+.payment-methods .card .card-header button span {
+    display: inline-block;
+    float: right;
+    margin-top: 0;
+    position: absolute;
+    right: 7px;
+    top: 2px;
+    color: #51affd;
+    padding: 10px;
+}
+
+
+.payment-methods .card .card-body {
+    box-shadow: 0 5px 6px -10px rgba(0,0,0,.75);
+    background-image: linear-gradient(-90deg,#f9f9f9 0,#f9f9f9 .5%,#fff 100%);
+    padding-left: 30px;
+    padding-right: 38px;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.card-form .card-body .form-wr {
+    padding-right: 35px;
+}
+
+.payment-methods .form-group {
+    position: relative;
+    box-sizing: border-box;
+}
+label {
+    margin: 0;
+    font-weight: 400;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    border: 1px solid #ced4da;
+    box-shadow: none!important;
+}
+.card-form .card-body .form-group label {
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    color: #8f8f8f;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+.icon-card {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    width: 80px;
+}
+.payment-methods .form-group i{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    font-size: 22px;
+    color: #51affd;
+}
+.card-form .card-body .form-group input{
+    height: 48px;
+    /* font-size: 16px;
+    color: #333; */
+    padding-left: 40px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    background: #fff;
+}
+
+.box-card {
+    position: relative;
+    width: 320px;
+    height: 188px;
+    margin: 20px auto 0;
+    background: linear-gradient(196.67deg,#eaec7d 0,#e5f5ff 51.2%,#b2d9ff 100%);
+    box-shadow: 0 10px 20px rgba(0,0,0,.06);
+    border-radius: 10px;
+}
+.box-card p.card-number {
+    top: 80px;
+    font-size: 20px;
+    color: #4370bd;
+    left: 20px;
+    right: 0;
+    letter-spacing: 2.1px;
+}
+.box-card p {
+    position: absolute;
+    display: inline-block;
+    font-family: 'Segoe UI';
+}
+p {
+    margin: 0;
+}
+.box-card p.card-name {
+    left: 24px;
+    text-align: left;
+    bottom: 24px;
+}
+.box-card p.card-name {
+    line-height: 17px;
+    font-size: 12px;
+    color: #8f8f8f;
+}
+.box-card p.card-date {
+    bottom: 27px;
+    right: 32px;
+}
+.box-card img {
+    position: absolute;
+    width: 90px;
+    top: 28px;
+    left: 6px;
+}
+.box-card p.card-name span{
+    font-size: 16px;
+    color: #4370bd;
+    width: 180px;
+}
+.box-card p.card-date span{
+    font-size: 16px;
+    color: #4370bd;
+    width: 180px;
+}
+
+.box-card p.card-date {
+    line-height: 17px;
+    font-size: 12px;
+    color: #8f8f8f;
+}
+
+.text-rules {
+    margin-top: 15px;
+    text-align: center;
+}
+.stylecheck a {
+    color: #51affd;
+    text-decoration: underline!important;
+}
+.text-rules .stylecheck .checkmark {
+    position: absolute;
+    bottom: 2px;
+    left: 125px;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+    border: 2px solid #51affd;
+}
+.cf-left {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px!important;
+    padding-right: 40px!important;
+}
+.cf-left ul {
+    display: inline-block;
+    width: 100%;
+}
+.cf-left ul li {
+    width: 50%;
+    float: left;
+    color: #8f8f8f;
+    font-size: 12px;
+}
+li {
+    list-style: none;
+}
+.cf-left ul li b {
+    display: block;
+    font-size: 18px;
+    color: #51affd;
+    font-weight: 400;
+}
+ul {
+    padding: 0;
+}
+.card-footer {
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #f1f4fb;
+}
+.cf-right {
+    padding-right: 0!important;
+}
+/* .col-sm-6{
+    position: relative;
+    width: 100%;
+} */
+.cf-right button
+{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    font-size: 20px;
+    color: #fff;
+    background-image: linear-gradient(to left,#57ccfb ,#51affd);
+}
+.coundown {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+.coundown span {
+    color: #8f8f8f;
+    font-size: 12px;
+    text-align: center;
+   
+}
+.coundown p {
+    font-size: 16px;
+    color: #4f81cc;
+}
+.note {
+    width: 55%;
+    position: relative;
+    bottom: -41px;
+    left: 20%;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.note span{
+    color: red;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+footer {
+    width: 100%;
+    background-color: #4f81cc;
+    padding: 12px 0px 5px;
+    margin-top: 100px;
+
+    float: left;
+}
+.footer-left {
+    width: 60%;
+    float: left;
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+}
+.footer-left a{
+    display: initial;
+    float: left;
+    border-right : 1px solid #4d74bd;
+    padding-right: 0;
+    margin-right: 15px;
+}
+.footer-left .footer-text {
+    color: #f4f4fd;
+    font-size: 12px;
+}
+p ,ul {
+    margin: 0;
+}
+ul {
+    padding: 0;
+}
+.footer-left .footer-text ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer-right{
+    display: inline-block;
+    width: 40%;
+    float: left;
+    text-align: right;
+    color: #f4f7fd;
+    font-size: 14px;
+}
+.footer-right ul{
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+}
+
+.footer-right ul li {
+    display: inline-block;
+    float: right;
+    margin-left: 10px;
+}
